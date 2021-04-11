@@ -1,0 +1,9 @@
+<p>List Of Orders!</p>
+
+<ul class="orders">
+    <li *ngFor="let order of orders" class="orderlist">
+        <a class="active">
+            {{ order.order }}
+        </a>
+    </li>
+</ul>
