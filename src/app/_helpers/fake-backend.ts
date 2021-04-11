@@ -48,7 +48,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
             });
         }
 
-        function getUsers() { 
+        function getUsers() {
             if (!isLoggedIn()) { return unauthorized(); }
             return ok(users);
         }
