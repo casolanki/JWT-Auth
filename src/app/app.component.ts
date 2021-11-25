@@ -31,4 +31,7 @@ export class AppComponent {
     admin() {        
         this.router.navigate(['/admin']);
     }
+    todo(){
+        this.router.navigate(['/todos']);
+    }
 }
